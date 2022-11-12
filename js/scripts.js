@@ -94,10 +94,27 @@ let thirdSundayLinkString = linkDictionary[thirdSundayAbbrev];
 const thirdLinkSpan = document.querySelector('#thirdSundayLink');
 thirdLinkSpan.innerHTML = '<a href="' + thirdSundayLinkString + '">Click here for files</a>';
 
-//Populate table
-//let tableSpan = document.querySelector('#ORD33_Link');
-//tableSpan.innerHTML = '<a href="' + linkDictionary["ORD33C"] + '">Files</a>';
+//4th Upcoming Sunday: Find Date
 
+const fourthDateSpan = document.querySelector('#fourthSundayDate');
+let fourthSundayDate = getNthSunday(nextSundayDate, 4);
+let fourthSundayDateString = (fourthSundayDate.getMonth() + 1).toString() + "/" + fourthSundayDate.getDate().toString() + "/" + fourthSundayDate.getFullYear().toString();
+fourthDateSpan.textContent = fourthSundayDateString;
+
+//4th Upcoming Sunday: Find Name
+
+let fourthSundayNameString = nameDictionary[fourthSundayDateString][0];
+const fourthNameSpan = document.querySelector('#fourthSundayName');
+fourthNameSpan.textContent = fourthSundayNameString;
+
+//4th Upcoming Sunday: Generate Link
+
+let fourthSundayAbbrev = nameDictionary[fourthSundayDateString][1];
+let fourthSundayLinkString = linkDictionary[fourthSundayAbbrev];
+const fourthLinkSpan = document.querySelector('#fourthSundayLink');
+fourthLinkSpan.innerHTML = '<a href="' + fourthSundayLinkString + '">Click here for files</a>';
+
+//Populate table
 for (var prop in linkDictionary) {
     if(Object.prototype.hasOwnProperty.call(linkDictionary, prop)){
         let spanName = "#" + prop + "_Link";
