@@ -19,19 +19,19 @@ function getNthSunday(date, n) {
 var nameDictionary = {
     "11/13/2022": ["Thirty-third Sunday in Ordinary Time, Year C", "ORD33C"],
     "11/20/2022": ["Our Lord Jesus Christ, King of the Universe, Year C", "FEAST_CHRISTTHEKING_C"],
-    "11/27/2022": ["First Sunday of Advent, Year C", "ADVENT1C"],
-    "12/4/2022": ["Second Sunday of Advent, Year C", "ADVENT2C"],
-    "12/11/2022": ["Third Sunday of Advent, Year C", "ADVENT3C"],
-    "12/18/2022": ["Fourth Sunday of Advent, Year C", "ADVENT4C"],
+    "11/27/2022": ["First Sunday of Advent, Year A", "ADVENT1A"],
+    "12/4/2022": ["Second Sunday of Advent, Year A", "ADVENT2A"],
+    "12/11/2022": ["Third Sunday of Advent, Year A", "ADVENT3A"],
+    "12/18/2022": ["Fourth Sunday of Advent, Year A", "ADVENT4A"],
 };
 
 var linkDictionary = {
     "ORD33C": "https://drive.google.com/drive/folders/1rurRO9L8PtVj5YqD1fYr5f46lv2hqSu8?usp=sharing",
     "FEAST_CHRISTTHEKING_C": "https://drive.google.com/drive/folders/1x3a6ML0alte3EGP2EMRH4dalEmU9WA3W?usp=sharing",
-    "ADVENT1C": "https://drive.google.com/drive/folders/1m_eIBSDKrsgHeoAdaejfuK_E8j7avojQ?usp=sharing",
-    "ADVENT2C": "https://drive.google.com/drive/folders/1GN9aIAg-gv30ZQ3foW3PMjxXcs7qFk4a?usp=sharing",
-    "ADVENT3C": "https://drive.google.com/drive/folders/1Q2EAnBng32qhnnxrysd1zUXRZlLy_pre?usp=sharing",
-    "ADVENT4C": "https://drive.google.com/drive/folders/1-nhPYMXknT8m0idayxEJfdTjZfW6I1A4?usp=sharing",
+    "ADVENT1A": "https://drive.google.com/drive/folders/1m_eIBSDKrsgHeoAdaejfuK_E8j7avojQ?usp=sharing",
+    "ADVENT2A": "https://drive.google.com/drive/folders/1GN9aIAg-gv30ZQ3foW3PMjxXcs7qFk4a?usp=sharing",
+    "ADVENT3A": "https://drive.google.com/drive/folders/1Q2EAnBng32qhnnxrysd1zUXRZlLy_pre?usp=sharing",
+    "ADVENT4A": "https://drive.google.com/drive/folders/1-nhPYMXknT8m0idayxEJfdTjZfW6I1A4?usp=sharing",
 };
 
 //1st Upcoming Sunday: Find Date
