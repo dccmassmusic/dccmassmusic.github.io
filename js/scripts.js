@@ -27,7 +27,11 @@ var nameDictionary = {
     "4/2/2023": ["Palm Sunday, Year A", "PALMA"],
     "4/9/2023": ["Easter Sunday, Year A", "FEAST_EASTERSUNDAY_A"],
     "4/16/2023": ["Second Sunday of Easter, Year A", "EASTER2A"],
-    "4/16/2023": ["Third Sunday of Easter, Year A", "EASTER3A"],
+    "4/23/2023": ["Third Sunday of Easter, Year A", "EASTER3A"],
+    "4/30/2023": ["Fourth Sunday of Easter, Year A", "EASTER4A"],
+    "5/7/2023": ["Fifth Sunday of Easter, Year A", "EASTER5A"],
+    "5/14/2023": ["Sixth Sunday of Easter, Year A", "EASTER6A"],
+    "5/21/2023": ["The Ascension of the Lord, Year A", "FEAST_ASCENSION_A"],
 };
 
 var linkDictionary = {
